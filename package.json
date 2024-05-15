@@ -22,3 +22,15 @@
     "sequelize": "^6.37.3"
   }
 }
+{
+  "scripts": {
+    "vercel-build": "your build command"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "vercel": {
+    "includeFiles": "your included files",
+    "maxLambdaSize": "50mb"
+  }
+}
